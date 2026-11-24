@@ -37,6 +37,8 @@ nav a:hover { text-decoration: underline; }
   box-shadow: 0 5px 0 var(--ink);
 }
 .badge.soon { background: linear-gradient(180deg, #b9b3a8, #9a9387); }
+.video { margin: 0 0 18px; }
+.video video { display: block; width: 100%; height: auto; border-radius: 18px; border: 4px solid var(--ink); background: #2c7a1f; box-shadow: 0 8px 20px rgba(60, 20, 0, .3); }
 .shots { display: grid; grid-auto-flow: column; grid-auto-columns: calc((100% - 24px) / 3); gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 8px; }
 .shots img { width: 100%; height: auto; border-radius: 14px; border: 3px solid var(--ink); scroll-snap-align: start; box-shadow: 0 8px 20px rgba(60, 20, 0, .3); }
 @media (max-width: 600px) { .shots { grid-auto-columns: 82%; } }
